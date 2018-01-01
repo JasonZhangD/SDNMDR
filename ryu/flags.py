@@ -127,3 +127,9 @@ CONF.register_cli_opts([
         'frr-version', LooseVersion, default=DEFAULT_ZSERV_FRR_VERSION,
         help='FRRouting version when integrated with FRRouting (e.g., 3.0)'),
 ], group='zapi')
+
+CONF.register_cli_opts([
+        # k_shortest_forwarding
+        cfg.IntOpt('k-paths', default=1, help='number for k shortest paths'),
+        cfg.StrOpt('weight', default='hop',
+                   help='type of computing shortest path.')])

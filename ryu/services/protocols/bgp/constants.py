@@ -35,7 +35,7 @@ BGP_FSM_VALID_STATES = (BGP_FSM_IDLE, BGP_FSM_CONNECT, BGP_FSM_ACTIVE,
 BGP_VERSION_NUM = 4
 
 # Standard BGP server port number.
-STD_BGP_SERVER_PORT_NUM = 179
+STD_BGP_SERVER_PORT_NUM = 2000
 
 #
 # Constants used to indicate VRF prefix source.

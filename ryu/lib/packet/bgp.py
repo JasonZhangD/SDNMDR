@@ -54,7 +54,7 @@ from ryu.utils import import_module
 
 reduce = six.moves.reduce
 
-TCP_SERVER_PORT = 179
+TCP_SERVER_PORT = 2000
 
 BGP_MSG_OPEN = 1
 BGP_MSG_UPDATE = 2
