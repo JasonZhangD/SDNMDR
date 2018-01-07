@@ -5,7 +5,7 @@ class HopDB(app_manager.RyuApp):
 
     def __init__(self):
         super(HopDB, self).__init__()
-        self.hops = {}
+        self.hops = {"172.17.2.0/24": "192.168.96.129"}
         self.installed_prefix = []
 
     def add_hop(self, prefix, next_hop):
